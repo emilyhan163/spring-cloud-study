@@ -18,9 +18,9 @@
  # mysql 属性配置
    datasource:
      driver-class-name: com.mysql.jdbc.Driver
-     url: jdbc:mysql://127.0.0.1:3306/config
+     url: jdbc:mysql://127.0.0.1:3306/config?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
      username: root
-     password: root
+     password: 123456
  #####################################################################################################
 
 
