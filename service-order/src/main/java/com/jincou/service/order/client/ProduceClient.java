@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author xub
  * @date 2019/7/12 下午1:01
  */
+//@FeignClient(name = "product-service",fallback = ProductClientFallback.class)
 @FeignClient(name = "product-service")
 public interface ProduceClient {
 
